@@ -1,0 +1,155 @@
+*{
+    box-sizing: border-box;
+}
+.slider {
+    width: 80%;
+    margin: 100px auto;
+}
+
+.slick-slide {
+  margin: 0px 20px;
+}
+
+.slick-slide img {
+  width: 100%;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  color: black;
+}
+
+
+.slick-slide {
+  transition: all ease-in-out .3s;
+  opacity: .2;
+}
+
+.slick-active {
+  opacity: .5;
+}
+
+.slick-current {
+  opacity: 1;
+}
+
+.pricing{
+   
+    display: grid;
+     
+    grid-template-columns: 100%;
+    grid-template-rows: 100%;
+   
+   margin-top: 40px;
+   font-weight: 900;
+   width: 100%;
+   
+ 
+
+}
+
+#imgmnue{
+    top: 0;
+}
+#mnue{
+    top: 0;
+    z-index: 1;
+   
+}
+
+
+#close{
+    top: 0;
+}
+.thebest_line{
+    text-align: center;
+  
+    margin-top: 40px;
+    width: 100%;
+    font-weight: bold;
+    font-size: 25px;
+}
+.card-prining{
+    width: 100%;
+    height: 66vh;
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    gap: 10px;
+    grid-row: 100%;
+    justify-content: center;
+    transform: scale(90%);
+
+}
+.card-prining .card-1{
+    background-color: #1d264a;
+    
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 70% 30%;
+    padding: 30px;
+    transition: all 0.5s ease-in;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+  
+    
+
+}
+.card-prining .card-1:hover{
+    background-position: 80%;
+    transform: rotate3d(30deg);
+}
+
+.card-prining .card-1-a h4{
+    margin-top: 5px;
+    margin-bottom: 10px;
+    color: aliceblue;
+
+  
+}
+.card-prining .card-1-b {
+    text-align: center;
+   
+   
+   
+   
+    
+
+}
+.card-prining .card-1-b a{
+    text-decoration: none;
+    padding: 20px 50px 20px 50px;
+    background-color: #FF8983;
+    display: block;
+    font-size: 20px;
+    color: aliceblue;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    transition: all 0.5s ease-in-out;
+   
+  
+}
+.card-prining .card-1-b a:hover{
+   margin: 10px;
+
+
+}
+@media screen  and (max-width:412px){
+    .card-prining{
+        grid-template-columns: 100%;
+        grid-template-rows: 30% 30% 30%;
+        height: 130vh;
+        transform: scale(80%);
+
+    }
+    .slider{
+        transform: scale(70%);
+        width: 80%;
+    
+    }
+    .slick-slide{
+        margin: 0;
+    }
+
+
+
+}
